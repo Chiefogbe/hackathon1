@@ -1,0 +1,518 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+img{
+  width: 100%;
+}
+
+body{
+  background-color: purple;
+}
+
+/* NAVIGATION BAR */
+
+header nav{
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  margin-bottom: 30px;
+  background-color: rgb(48, 9, 48);
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
+}
+
+a{
+  color: white;
+  list-style: none;
+  margin-left: 5px;
+}
+
+.mobile-nav{
+  display: block;
+}
+
+.span-div{
+  display: none;
+}
+
+.getLinked-icon{
+  width: 50%;
+}
+
+.nav-reg-btn{
+  width:100px;
+}
+
+/* BOY WEARING SMART GLASS SECTION */
+
+.HR-innovation{
+  text-align: end;
+  margin-right: 10px;
+  color: white;
+  margin-top: 50px;
+}
+
+.VectorLine{
+  width: 40%;
+  margin-left: 150px;
+}
+
+.getLinked-Tech{
+  width: 100%;
+}
+
+.Hackathon-1{
+  width: 70%;
+}
+
+.Hackathon-container{
+  margin-top: 30px;
+  text-align: start;
+}
+
+.chain-light{
+  width: 20px;
+}
+
+.chain-light-div{
+  margin-bottom: 20px;
+  text-align: start;
+}
+
+.countDown-div{
+  margin: 1px;
+  font-size:large;
+  font-weight: bold;
+  color: white;
+  text-align: start;
+}
+
+.RegBtn{
+  width: 50%;
+  text-align: start;
+}
+
+.CountdownTime, .techHackathon{
+  width: 80%;
+}
+
+.eyeglass-div{
+  margin: 10px;
+  margin-top: 60px;
+  background-image: url(assets/man_wearing_smart_glasses.png);
+  background-repeat: no-repeat;
+  background-size:100%;
+  z-index: 1;
+}
+
+/* INTRODUCTION TO GETLINKED */
+
+.introduction-getLinked{
+  text-align: center;
+  color: white;
+  margin: 10px;
+}
+
+.arrow{
+  width: 50px;
+}
+
+.rules-guidelines{
+  width: 30%;
+}
+
+.judging-criteria{
+  width: 50%;
+}
+
+.strong-span{
+  color: rgba(241, 6, 65, 0.952) ;
+  font-weight: bolder;
+}
+
+/* FREQUENTLY ASK QUESTIONS */
+
+.FAQ{
+  display: grid;
+  place-content: center;
+  text-align: center;
+  margin-top: 40px;
+  color: white;
+  margin: 10px;
+  
+}
+
+.FAQ-image{
+  width: 100%;
+  margin-top: 40px;
+}
+
+.firstDiv,
+.secondDiv,
+.thirdDiv,
+.fourthDiv,
+.fifthDiv{
+  display: flex;
+  justify-content:space-around;
+  align-self: center;
+  width: 320px;
+  height: 90px;
+  text-align: justify;
+  padding: 6px;
+  border-bottom: 2px solid rgb(159, 4, 231);
+}
+
+.plusBtn{
+  margin-top: 20px;
+}
+
+.three-ques-container{
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.three-ques{
+  position: relative;
+  right: 40px;
+  top: 26px;
+}
+
+.firstQues{
+  width: 25px;
+  margin-top: 60px;
+}
+
+.secondQues{
+  width: 50px;
+  margin-left: 35px;
+  margin-right: 35px;
+}
+
+/* TIMELINE */
+
+.line{
+  width: 10px;
+  height: 100px;
+}
+
+#timeline-article{
+  text-align: center;
+  color: white;
+  margin: 20px;
+}
+
+.timeline-image{
+  display: none;
+}
+
+.liney{
+  width: 3px;
+  height: 120px;
+  position: relative;
+  left: 10px;
+}
+
+.line-num{
+  width: 25px;
+}
+
+.timeline-grid{
+  display: grid;
+  grid-template-columns: 50px 250px;
+  margin: 10px;
+  justify-content: center;
+  color: white;
+}
+
+/* PRIZES AND AWARDS */
+
+#prize-rewards-section{
+  margin: 50px;
+  text-align: center;
+  color: white;
+}
+
+.prize-rewards{
+  margin-bottom: 50px;
+}
+
+.prize-reward-png{
+  width: 50%;
+  margin-bottom: 10px;
+}
+
+/* PARTNERS AND SPONSORS */
+
+/* PRIVACY AND POLICY  */
+
+.licensing-container{
+  background-color: rgb(77, 21, 68);
+  padding: 20px;
+  border-radius: 7px;
+}
+
+.first-license-flexbox,.second-license-flexbox{
+  display: flex;
+  justify-content: space-evenly;
+  gap: 20px;
+  margin-bottom: 20px;
+  text-align: start;
+}
+
+.aside-policy{
+  text-align: start;
+}
+
+.boy-lock{
+  background-image: url(assets/Vector1.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  z-index: 1;
+}
+
+
+footer{
+  text-align: start;
+  margin: 30px;
+  color: white;
+}
+
+.terms-use{
+  margin-bottom: 30px;
+}
+
+.getLinked-icon2{
+  width: 30%;
+}
+
+.line20{
+  width: 3px;
+  height: 20px;
+  position: relative;
+  top: 5px;
+}
+
+.useful-links{
+  margin-bottom: 10px;
+  line-height: 30px;
+}
+
+.social-media-container{
+  display: flex;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+.social-media-icons{
+  width:20%;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.contact-icon{
+  width: 150%;
+}
+
+.firstContainer, .secondContainer{
+  display: flex;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.copyright{
+  text-align: center;
+}
+
+/* CONTACT PAGE */
+
+.contact-page{
+  text-align: center;
+  height: 650px;
+  color: white;
+  font-weight: bold;
+}
+.group1{
+  width: 40px;
+}
+
+.question-image{
+  width: 30%;
+}
+
+.question-container{
+  margin: 20px;
+  padding: 10px;
+  text-align: left;
+  position: relative;
+  left: 125px;
+}
+
+.form-image{
+  width: 50%;
+}
+
+.submit-form-image{
+  width: 20%;
+}
+
+/* REGISTERATION PAGE */
+
+.contact-container{
+  display: none;
+}
+
+
+.Reg-container{
+  margin: 20px;
+  color: white;
+  font-weight: bold;
+}
+
+.Reg-reg{
+  width: 20%;
+}
+
+.reg-programmer{
+  width: 50%;
+}
+
+.reg-moves{
+  width: 60%;
+}
+
+.category-group{
+  display: flex;
+  gap: 20px;
+}
+
+.category-image{
+  width: 100%;
+}
+
+.reg-details{
+  width: 60%;
+}
+
+.submit-reg-btn{
+  width: 20%;
+  position: relative;
+  left: 100px;
+}
+
+.agreeBtn{
+  width: 50%;
+}
+
+.reg-container-big{
+  padding: 20px;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (min-width:600px){
+
+.mobile-nav{
+    display: none;
+  }
+.span-div{
+  display: flex;
+  color: white;
+}
+
+div span{
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.main-eyeglass-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  place-content: center;
+  padding: 20px;
+}
+
+.introduction-getLinked{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  place-content: center;
+  gap: 30px;
+}
+
+.intro-light-div{
+  text-align: left;
+}
+
+.intro-get2{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: row-reverse;
+  text-align: left;
+  margin-bottom: 50px;
+}
+
+#FAQ{
+  display: grid;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  place-content: center;
+  gap: 30px;
+}
+
+.timeline-grid{
+  display: none;
+}
+
+.timeline-image{
+  display: block;
+}
+
+.reward-container{
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+  .privacy-policy{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+  }
+
+  .boy-lock{
+    margin-top: 200px;
+  }
+
+  .footer-div{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+  }
+
+  .contact-container{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    line-height: 30px;
+    padding: 20px;
+  }
+
+  .contact-page{
+    display: none;
+  }
+
+  .reg-container-big{
+    display: grid;
+    grid-template-columns: 350px 400px;
+  }
+}
+
+
+
+
+
